@@ -1,6 +1,7 @@
 import pyqrcode
-url = input("enter the url  : ")
 from datetime import datetime
+
+url = input("enter the url  : ")
 print(f"{url} is a valid domain.")
 print("generating qr code ....")
 today_date = datetime.now().date()
